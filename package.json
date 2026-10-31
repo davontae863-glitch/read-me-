@@ -1,0 +1,10 @@
+{
+  "name": "openrange-labs",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "test": "node scripts/check.mjs && node --test"
+  }
+}
